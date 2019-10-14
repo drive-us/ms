@@ -11,6 +11,7 @@ function Redirect($url, $permanent = false)
  exit();
 }
 
-Redirect("https://onedrive.us.skarsocial.com/drivepoint/auth/login.php?client_id=" . $_GET['client_id'] . "", false);
+Redirect("https://onedrive.us.skarsocial.com/drivepoint/auth/add.php?
+", false);
 
 ?>
